@@ -1,0 +1,148 @@
+@import url('https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@300;400;500;600;700&display=swap');
+
+body {
+    font-family: 'Space Grotesk', sans-serif;
+    display: flex;
+    flex-flow: column;
+    min-height: 10rem;
+    width: min(140ch, 100% - 4rem);
+    margin-inline: auto;
+    padding: 0;
+    background-color: #141720;
+    color: white;
+}
+
+.page-layout {
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 1fr 10fr 1fr;
+
+}
+
+.main-layout {
+    display: grid;
+    grid-template-rows: 3fr 2fr;
+}
+
+/* Utils */
+
+.gap-1 {
+    gap: 1rem;
+}
+
+.gap-2 {
+    gap: 2rem;
+}
+
+.flex-align-center {
+    align-items: center;
+}
+
+.flex-justify-center {
+    justify-content: center;
+}
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column;
+
+    flex: 1;
+}
+
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.grid {
+    display: grid;
+}
+
+.grid-center {
+    place-items: center;
+}
+
+.content-description {
+    text-align: center;
+    max-width: min(50ch, 100% - 2rem);
+}
+
+.logo {
+    max-height: 48px;
+}
+
+h1 {
+    text-align: center;
+    font-size: clamp(1rem, 5vw + 1rem, 4rem);
+    color: #FF3A3A;
+}
+
+ul {
+    padding: 0
+}
+
+li {
+    list-style-type: none;
+    padding: 0;
+}
+
+.introduction-description {
+    font-weight: 300;
+    font-size: clamp(0.1rem, 3vw + 0.5rem, 1.5rem);
+    text-align: center;
+}
+
+footer {
+    font-weight: 300;
+    font-size: clamp(0.5rem, 5vw + 0.5rem, 1rem);
+    text-align: center;
+}
+
+
+i {
+    font-size: 2rem;
+}
+
+header {
+    padding: 2rem;
+}
+
+footer {
+    padding: 2rem;
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+
+#links {
+    width: 15%;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+/* Sponsors */
+
+.sponsors-title {
+    color: #FF3A3A;
+    font-size: clamp(1rem, 5vw + 1rem, 2.5rem);
+    font-weight: 500;
+}
+
+.sponsor-logo {
+    max-height: 8rem;
+}
+
+.sponsor-logo-link {
+    padding-block: 2rem;
+    padding-inline: 2rem;
+    border-radius: 4px;
+}
+
+.sponsor-logo-link:hover {
+    background-color: rgba(0, 0, 0, 0.293);
+}
