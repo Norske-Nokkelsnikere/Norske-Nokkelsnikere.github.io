@@ -92,7 +92,7 @@ footer {
 }
 
 ul {
-    padding: 0
+    padding: 0;
 }
 
 li {
@@ -107,6 +107,10 @@ li {
     width: clamp(4rem, 10vw + 1rem, 6.375rem);
 }
 
+
+.social-media-links {
+    margin-block: 2rem;
+}
 
 /* Main */
 
